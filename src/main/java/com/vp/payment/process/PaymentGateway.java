@@ -29,8 +29,8 @@ public class PaymentGateway {
 		String paymentId = null;
 
 		try {
-			connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/smartbankv2db", "senthil",
-					"mySweden4725");
+			connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/smartbankv2db", " ",
+					" ");
 
 		} catch (SQLException e) {
 			System.out.println("Connection Failed! Check output console");
