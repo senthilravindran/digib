@@ -1,10 +1,6 @@
 package api;
 
-import static spark.Spark.*;
-
-import com.vp.payment.entities.PaymentMessage;
-import com.vp.payment.entities.PaymentReceiver;
-import com.vp.payment.entities.PaymentSender;
+import static spark.Spark.get;
 
 public class ProcessPayment {
 	public static void main(String[] args) {
